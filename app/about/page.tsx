@@ -9,7 +9,14 @@ export default function AboutPage() {
   return (
     <div className="bg-gradient-to-b min-h-[90vh] from-purple-100 to-white text-purple-800 flex flex-col items-center py-10 px-6">
       {/* Title Section */}
-      <h1 className="text-5xl font-bold mb-6 text-center">🦷 Dental AI Assistant</h1>
+      <h1 className="text-5xl font-bold mb-6 text-center">
+        <Image 
+          src="/dentaboticon.png" 
+          alt="dentabot-icon" 
+          width={10} 
+          height={10} 
+          className="w-25 h-25 md:w-25 md:h-25"
+        /> Dental AI Assistant</h1>
       
       {/* Image + Text Section */}
       <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl text-center md:text-left">
