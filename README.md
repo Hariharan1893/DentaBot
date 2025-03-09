@@ -2,6 +2,11 @@
 
 DentaBot is an AI-powered chatbot designed to assist dental students, professionals, and patients with instant responses to their dental-related queries. It leverages **Gemini 2.0 Flash LLM** for intelligent responses and provides **reliable, expert-backed information** on dental topics.
 
+🔗 **Live Demo:** [DentaBot](https://dentabot.vercel.app/)  
+
+📱 **Optimized for both desktop and mobile views!**  
+- 🔥 **Desktop View:** ![Desktop Preview](public/desktopview.png)  
+- 📲 **Mobile View:** ![Mobile Preview](public/mobileview.png)
 ---
 
 ## ✨ Features
