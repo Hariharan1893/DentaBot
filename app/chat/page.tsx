@@ -76,7 +76,7 @@ export default function Chat() {
           />
           <button 
             onClick={sendMessage} 
-            className="bg-purple-600 text-white p-3 rounded-r"
+            className="bg-purple-600 text-white pr-2 pl-2 rounded-r"
             disabled={loading}
           >
             {loading ? "..." : "Send"}
