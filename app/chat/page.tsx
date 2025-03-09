@@ -24,13 +24,18 @@ export default function Chat() {
         ...prev,
         { role: "assistant", content: res.data.response, timestamp: new Date().toLocaleTimeString() },
       ]);
-    } catch (_error: any) {
-      console.error("Chatbot Error:", _error);
+    } catch (_error: unknown) {
+      if (_error instanceof Error) {
+        console.error("Chatbot Error:", _error.message);
+      } else {
+        console.error("Chatbot Error:", _error);
+      }
       setMessages((prev) => [
         ...prev,
         { role: "assistant", content: "⚠️ Error getting response.", timestamp: new Date().toLocaleTimeString() },
       ]);
-    } finally {
+    }
+     finally {
       setLoading(false);
     }
   };
