@@ -67,7 +67,7 @@ export default function Chat() {
         {/* Chat Input */}
         <div className="flex mt-4 mr-4">
           <input
-            className="flex-grow p-3 border rounded-l text-black"
+            className="flex-grow p-3 border min-w-fit rounded-l text-black"
             placeholder="Ask DentaBot..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
