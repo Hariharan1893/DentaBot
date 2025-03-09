@@ -4,9 +4,6 @@ DentaBot is an AI-powered chatbot designed to assist dental students, profession
 
 🔗 **Live Demo:** [DentaBot](https://dentabot.vercel.app/)  
 
-📱 **Optimized for both desktop and mobile views!**  
-- 🔥 **Desktop View:** ![Desktop Preview](public/desktopview.png)  
-- 📲 **Mobile View:** ![Mobile Preview](public/mobileview.png)
 ---
 
 ## ✨ Features
