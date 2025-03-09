@@ -25,9 +25,9 @@ export default function AboutPage() {
         {/* Text Content */}
         <div>
           <p className="text-lg text-gray-700">
-            Meet <b>DentaBot</b>, your AI-powered dental assistant! Whether you're a student learning 
-            about dental science, a professional seeking quick references, or a patient looking for 
-            answers, DentaBot is here to help.
+          Meet <b>DentaBot</b>, your AI-powered dental assistant! Whether you&apos;re a student learning 
+          about dental science, a professional seeking quick references, or a patient looking for 
+          answers, DentaBot is here to help.
           </p>
           <p className="mt-4 text-gray-700">
             Get expert-backed responses on dental topics, treatment options, and oral care best practices.
