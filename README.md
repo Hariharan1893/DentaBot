@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 DentaBot - AI-Powered Dental Assistant
 
-## Getting Started
+DentaBot is an AI-powered chatbot designed to assist dental students, professionals, and patients with instant responses to their dental-related queries. It leverages **Gemini 2.0 Flash LLM** for intelligent responses and provides **reliable, expert-backed information** on dental topics.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- 🤖 **AI-Powered Chat** - Get instant responses from an AI chatbot trained on dental knowledge.
+- 📚 **Accurate & Reliable** - Sources information from dental textbooks, research papers, and experts.
+- 🧠 **Smart Learning** - Offers interactive quizzes and case studies for dental students.
+- 🏥 **Treatment Suggestions** - Recommends common dental treatments based on symptoms.
+- 🎨 **User-Friendly UI** - Intuitive and modern chat interface built with **Next.js & Tailwind CSS**.
+- 📩 **Contact Form** - Allows users to get in touch with developer for chatbot customization.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up **DentaBot** on your local machine.
+
+### ✅ **1. Clone the Repository**
+
+```sh
+git clone https://github.com/Hariharan1893/DentaBot.git
+cd DentaBot
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ **2. Install Dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ **3. Set Up Environment Variables**
 
-## Learn More
+Create a `.env.local` file in the root directory and add the following variables:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+EMAIL_USER= your-email@example.com
+EMAIL_PASS= your-email-password
+RECEIVER_EMAIL=receiver-email@example.com
+GEMINI_API_KEY=your-gemini-api-key
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔹 Replace the placeholders with your actual API keys & Email credentials.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ **4. Run the Development Server**
 
-## Deploy on Vercel
+```sh
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Now, visit **[http://localhost:3000](http://localhost:3000)** to see DentaBot in action! 🎉
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔧 Technologies Used
+
+- **Next.js** - React Framework for server-side rendering.
+- **TypeScript** - Ensuring type safety.
+- **Tailwind CSS** - Styling and UI components.
+- **Gemini 2.0 Flash** - AI model for chatbot responses.
+- **Nodemailer** - Handles the contact form emails.
+- **Axios** - API requests handling.
+- **Vercel** - Deployment and hosting.
+
+---
+
+## 🌍 Deployment
+
+DentaBot is deployed on **Vercel**. To deploy your own version:
+
+```sh
+vercel
+```
+
+Follow the Vercel CLI steps and your chatbot will be live! 🌐
+
+---
+
+## 📬 Contact
+
+For queries or feedback, feel free to reach out via the contact form in the bot or email at **hariramesh1893@example.com**.
+
+💙 **Developed with passion by [Hariharan1893](https://www.linkedin.com/in/hariharanr18/).** 🚀
+
+---
+
+## ⭐ Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit changes (`git commit -m "Add new feature"`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a **Pull Request**.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. Feel free to use and modify as needed.
+
+---
+
+### **📌 Key Highlights**
+
+- **Clear introduction** of DentaBot.
+- **Getting started guide** for local setup.
+- **Feature list** to showcase functionalities.
+- **Deployment instructions** for Vercel.
+- **Contribution guidelines** for future improvements.
+- **License** details.
