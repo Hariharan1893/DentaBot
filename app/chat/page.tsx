@@ -65,7 +65,7 @@ export default function Chat() {
         </div>
 
         {/* Chat Input */}
-        <div className="flex mt-4">
+        <div className="flex mt-4 mr-4">
           <input
             className="flex-grow p-3 border rounded-l text-black"
             placeholder="Ask DentaBot..."
