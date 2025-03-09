@@ -25,6 +25,7 @@ export default function Chat() {
         { role: "assistant", content: res.data.response, timestamp: new Date().toLocaleTimeString() },
       ]);
     } catch (error: any) {
+      console.error("Chatbot Error:", error);
       setMessages((prev) => [
         ...prev,
         { role: "assistant", content: "⚠️ Error getting response.", timestamp: new Date().toLocaleTimeString() },
